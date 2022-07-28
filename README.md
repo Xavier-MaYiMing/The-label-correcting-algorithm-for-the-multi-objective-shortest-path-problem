@@ -22,7 +22,7 @@ The multi-objective aims to find a set of paths with minimized costs.
 
 #### Example
 
-![](C:\Users\dell\Desktop\研究生\个人算法主页\The NSGA-II for the multi-objective shortest path problem\MOSPP.png)
+![image](https://github.com/Xavier-MaYiMing/The-label-correcting-algorithm-for-the-multi-objective-shortest-path-problem/blob/main/MOSPP.png)
 
 The red number associated with each arc is the first weight, and the green number is the second weight.
 
