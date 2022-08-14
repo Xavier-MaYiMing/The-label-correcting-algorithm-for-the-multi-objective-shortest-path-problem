@@ -25,9 +25,9 @@ def find_neighbor(network):
 
 def dominated(obj1, obj2):
     """
-    judgment whether ripple 1 is dominated by ripple 2
-    :param obj1: the objective value of ripple 1
-    :param obj2: the objective value of ripple 2
+    judgment whether objective 1 is dominated by objective 2
+    :param obj1: the objective value 1
+    :param obj2: the objective value 2
     :return:
     """
     sum_less = 0
@@ -71,7 +71,7 @@ def main(network, source, destination):
     # Step 1. Initialization
     neighbor = find_neighbor(network)
     nn = len(network)  # node number
-    nw = len(network[source][neighbor[source][0]])  # objective number'
+    nw = len(network[source][neighbor[source][0]])  # objective number
     obj_list = []
     path_list = []
     ni = 0
