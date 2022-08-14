@@ -63,7 +63,7 @@ def add_labels(omega, obj_list, destination, temp_node, temp_obj):
 def main(network, source, destination):
     """
     the main function
-    :param network: {node 1: {node 2: [weight1, weight2, ...], ...}, ...}
+    :param network: {node1: {node2: [weight1, weight2, ...], ...}, ...}
     :param source: the source node
     :param destination: the destination node
     :return:
