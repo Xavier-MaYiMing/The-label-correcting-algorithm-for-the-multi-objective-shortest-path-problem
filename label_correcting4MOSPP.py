@@ -120,14 +120,13 @@ def main(network, source, destination):
 
 
 if __name__ == '__main__':
-    if __name__ == '__main__':
-        test_network = {
-            0: {1: [62, 50], 2: [44, 90], 3: [67, 10]},
-            1: {0: [62, 50], 2: [33, 25], 4: [52, 90]},
-            2: {0: [44, 90], 1: [33, 25], 3: [32, 10], 4: [52, 40]},
-            3: {0: [67, 10], 2: [32, 10], 4: [54, 100]},
-            4: {1: [52, 90], 2: [52, 40], 3: [54, 100]},
-        }
-        source_node = 0
-        destination_node = 4
-        print(main(test_network, source_node, destination_node))
+    test_network = {
+        0: {1: [62, 50], 2: [44, 90], 3: [67, 10]},
+        1: {0: [62, 50], 2: [33, 25], 4: [52, 90]},
+        2: {0: [44, 90], 1: [33, 25], 3: [32, 10], 4: [52, 40]},
+        3: {0: [67, 10], 2: [32, 10], 4: [54, 100]},
+        4: {1: [52, 90], 2: [52, 40], 3: [54, 100]},
+    }
+    source_node = 0
+    destination_node = 4
+    print(main(test_network, source_node, destination_node))
